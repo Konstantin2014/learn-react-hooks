@@ -7,7 +7,8 @@ import ReactDOM from "react-dom/client";
 // import { YearsCounter, DecadesCounter } from "./useState/Lesson3/useCounter";
 // import { FormExemple } from "./useState/Lesson3/useState_FuncComp";
 // import { Example } from "./useState/Lesson4/lazyUseState";
-import { Calculator } from "./useState/Lesson5/calculator";
+// import { Calculator } from "./useState/Lesson5/calculator";
+import { Counter } from "./useEffect/Lesson1/useEffect";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,6 +20,7 @@ root.render(
     <DecadesCounter initialValue={1970} />
     <FormExemple /> */}
     {/* <Example /> */}
-    <Calculator />
+    {/* <Calculator /> */}
+    <Counter />
   </React.StrictMode>
 );
