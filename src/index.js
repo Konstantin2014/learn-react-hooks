@@ -8,7 +8,8 @@ import ReactDOM from "react-dom/client";
 // import { FormExemple } from "./useState/Lesson3/useState_FuncComp";
 // import { Example } from "./useState/Lesson4/lazyUseState";
 // import { Calculator } from "./useState/Lesson5/calculator";
-import { Counter } from "./useEffect/Lesson1/useEffect";
+// import { Counter } from "./useEffect/Lesson1/useEffect";
+import { Example } from "./useEffect/Lesson2/useLayoutEffect";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -21,6 +22,7 @@ root.render(
     <FormExemple /> */}
     {/* <Example /> */}
     {/* <Calculator /> */}
-    <Counter />
+    {/* <Counter /> */}
+    <Example />
   </React.StrictMode>
 );
