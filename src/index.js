@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-// import { Clicker } from "./Lesson1/useState";
-// import { FormExemple } from "./Lesson2/useState";
-// import { FormExemple } from "./Lesson2/useStateFC";
-// import { ClassExample } from "./Lesson2/useState_ClassComp";
-// import { YearsCounter, DecadesCounter } from "./Lesson3/useCounter";
-// import { FormExemple } from "./Lesson3/useState_FuncComp";
-import { Example } from "./Lesson4/lazyUseState";
+// import { Clicker } from "./useState/Lesson1/useState";
+// import { FormExemple } from "./useState/Lesson2/useState_hook";
+// import { FormExemple } from "./useState/Lesson2/useState_FuncComp";
+// import { ClassExample } from "./useState/Lesson2/useState_ClassComp";
+// import { YearsCounter, DecadesCounter } from "./useState/Lesson3/useCounter";
+// import { FormExemple } from "./useState/Lesson3/useState_FuncComp";
+// import { Example } from "./useState/Lesson4/lazyUseState";
+import { Calculator } from "./useState/Lesson5/calculator";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -17,6 +18,7 @@ root.render(
     {/* <YearsCounter initialValue={1970} />
     <DecadesCounter initialValue={1970} />
     <FormExemple /> */}
-    <Example />
+    {/* <Example /> */}
+    <Calculator />
   </React.StrictMode>
 );
