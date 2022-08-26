@@ -9,7 +9,8 @@ import ReactDOM from "react-dom/client";
 // import { Example } from "./useState/Lesson4/lazyUseState";
 // import { Calculator } from "./useState/Lesson5/calculator";
 // import { Counter } from "./useEffect/Lesson1/useEffect";
-import { Example } from "./useEffect/Lesson2/useLayoutEffect";
+// import { Example } from "./useEffect/Lesson2/useLayoutEffect";
+import { Example } from "./useRef/useRef";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
